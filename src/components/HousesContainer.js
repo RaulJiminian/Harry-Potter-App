@@ -1,11 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
-function HousesContainer(props) {
-  const { name, founder, headOfHouse, houseGhost, mascot } = props
-
+function HousesContainer() {
   return (
-    <div className='houseBox'>
+
+    <div className='houseBox' >
 
       <Link to='/houses/hufflepuff'>
         <div className='houseBox'>
@@ -42,7 +41,6 @@ function HousesContainer(props) {
             alt='Slytherin' />
         </div>
       </Link>
-
     </div>
   )
 }

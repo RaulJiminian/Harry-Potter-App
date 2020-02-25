@@ -42,6 +42,8 @@ class SortingHat extends Component {
               alt='HufflePuff' />
           </Link>
 
+          <p>Click image for more information on your new house</p>
+
         </div>
       )
     } else if (this.state.house === 'Ravenclaw') {
@@ -56,6 +58,8 @@ class SortingHat extends Component {
               alt='Ravenclaw' />
           </Link>
 
+          <p>Click image for more information on your new house</p>
+
         </div>
       )
     } else if (this.state.house === 'Gryffindor') {
@@ -69,6 +73,8 @@ class SortingHat extends Component {
               alt='Gryffindor' />
           </Link>
 
+          <p>Click image for more information on your new house</p>
+
         </div>
       )
     } else if (this.state.house === 'Slytherin') {
@@ -81,6 +87,8 @@ class SortingHat extends Component {
               width='200px'
               alt='Slytherin' />
           </Link>
+
+          <p>Click image for more information on your new house</p>
 
         </div>
       )
