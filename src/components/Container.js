@@ -7,6 +7,7 @@ import Gryffindor from '../screens/Gryffindor';
 import HufflePuff from '../screens/HufflePuff';
 import Slytherin from '../screens/Slytherin';
 import RavenClaw from '../screens/RavenClaw';
+import Organzations from '../screens/Organzations'
 import { Switch, Route } from 'react-router-dom'
 
 const Token_1 = process.env.REACT_APP_HARRY_POTTER_TOKEN_1
@@ -37,27 +38,34 @@ class Container extends Component {
 
   async getHouses() {
     try {
+
       const response = await axios.get(HOUSES_API)
+
       this.setState({
         gryffindor: response.data[0],
         ravenclaw: response.data[1],
         slytherin: response.data[2],
         hufflepuff: response.data[3]
       })
+
     } catch (error) {
+
       console.log('Error')
     }
   }
 
   async getCharacter() {
     try {
+
       const response = await axios.get(CHARACTER_API)
-      // console.log(response.data)
+
       this.setState({
         characters: response.data,
         isLoading: true
       })
+
     } catch (error) {
+
       console.log('Error')
     }
   }
@@ -112,6 +120,16 @@ class Container extends Component {
                 path={'/houses/ravenclaw'}
                 render={() => <RavenClaw
                   data={ravenclaw}
+                  characters={characters} />}
+              /> :
+              null
+          }
+
+          {
+            isLoading ?
+              <Route
+                path={'/organizations'}
+                render={() => <Organzations
                   characters={characters} />}
               /> :
               null

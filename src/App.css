@@ -15,6 +15,10 @@
 .houseBox {
   border: 2px solid black;
 }
+
+.army, .ministry, .order, .death{
+  display: none;
+}
 /* 
 .sorting {
   background-image: url(https://www.bluemoongame.com/wp-content/uploads/2018/08/Meal-1.jpg);

@@ -14,6 +14,7 @@ function App() {
           <Link to={'/'}>Home </Link>
           <Link to={'/sortingHat'}>Sorting Hat </Link>
           <Link to={'/houses'}>Houses </Link>
+          <Link to={'/organizations'}>Organizations </Link>
         </div>
       </div>
 
