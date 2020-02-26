@@ -1,16 +1,54 @@
-.App {
+/* .App {
   height: 100%;
   width: 100%;
+} */
+html{
+  height: 100em;
+}
+
+#root {
+  height: 100em;
+}
+
+main {
+  height: 100%;
 }
 
 .header {
-  border: 5px solid black;
+  border: 3px solid black;
   display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.header h1 {
+  padding-left: 10px;
 }
 
 .nav {
   display: flex;
 }
+
+.nav a {
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+.HomePage {
+  background-image: url(https://images.ctfassets.net/usf1vwtuqyxm/7EsDSrJhr0pNwUNK8lrUwY/f8d7e5101de6dda8f46c0f94673087a9/HP-Hogwarts-39PHOTOBU17074_PHUP_HP.jpg);
+  height: 100%;
+  width: 100%;
+}
+
+.HomePage h3 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 900;
+  font-size: xx-large;
+  margin-top: 0;
+  padding-top: 1em;
+}
+
 
 .houseBox {
   border: 2px solid black;

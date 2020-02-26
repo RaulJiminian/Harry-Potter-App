@@ -4,8 +4,6 @@ function Organzations(props) {
 
   const { characters } = props
 
-  console.log(characters)
-
   const sortArmy = () => {
     return characters.map((character) => {
       if (character.dumbledoresArmy === true) {
@@ -67,7 +65,7 @@ function Organzations(props) {
     document.querySelector(`.${event.target.name}`).style.display = 'block';
   }
 
-  
+
   return (
     <div>
 
@@ -77,7 +75,7 @@ function Organzations(props) {
         <p>"Every great wizard in history has started out as nothing more
             than what we are now: students. If they can do it, why not us?"
             <br />
-            —Harry Potter
+          —Harry Potter
         </p>
       </button>
 
