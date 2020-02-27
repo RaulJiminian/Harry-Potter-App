@@ -3,9 +3,18 @@ import HousesContainer from '../components/HousesContainer'
 
 function Houses() {
   return (
-    <div>
-      <h1>The Four Great Houses </h1>
-      <HousesContainer />
+    <div className='Houses'>
+      <div className='top'>
+
+        <h1>The Four Great Houses </h1>
+
+      </div>
+
+      <div className='container'>
+
+        <HousesContainer />
+
+      </div>
     </div>
   )
 }

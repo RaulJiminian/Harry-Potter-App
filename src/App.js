@@ -7,8 +7,6 @@ function App() {
 
   return (
     <>
-
-
       <main>
         <div className='header'>
           <h1>Harry Potter</h1>
