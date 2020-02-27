@@ -84,3 +84,24 @@ main {
 .container a {
   width: 252px;
 }
+
+.gryffindor {
+  background-image: url(https://cdn.wallpapername.com/1600x1089/20121101/harry%20potter%20gryffindor%20hogwarts%201600x1089%20wallpaper_www.wallpapername.com_50.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.gryffindor h1 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.gryffindor h3,li {
+  color: #d9ce40;
+}
+
+.gryffindor ul {
+ column-count: 2;
+ column-gap: 0;
+ width: 50%;
+}
