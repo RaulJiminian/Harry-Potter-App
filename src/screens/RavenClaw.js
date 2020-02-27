@@ -18,7 +18,7 @@ function RavenClaw(props) {
   }
 
   return (
-    <div>
+    <div className='ravenclaw'>
       <h1>Welcome to: House {name}</h1>
       <h3>Founder: {founder}</h3>
       <h3>Head of House: {headOfHouse}</h3>

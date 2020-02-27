@@ -18,7 +18,7 @@ function HufflePuff(props) {
   }
 
   return (
-    <div>
+    <div className='hufflepuff'>
 
       <h1>Welcome to: House {name}</h1>
       <h3>Founder: {founder}</h3>

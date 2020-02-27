@@ -1,9 +1,9 @@
 html{
-  height: 100em;
+  height: 100vh;
 }
 
 #root {
-  height: 100em;
+  height: 100vh;
 }
 
 main {
@@ -102,12 +102,12 @@ main {
 
 .gryffindor li {
   color: #d9ce40;
+  margin-bottom: 5px;
 }
 
 .gryffindor ul {
- column-count: 2;
- column-gap: 0;
- width: 50%;
+ column-count: 3;
+ width: 70%;
 }
 
 .slytherin {
@@ -133,4 +133,52 @@ main {
   column-count: 2;
   column-gap: 0;
   width: 50%;
- }
+}
+
+.hufflepuff {
+  background-image: url(https://cdn.hipwallpaper.com/i/48/45/BOuWQs.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.hufflepuff h1 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.hufflepuff ul {
+  column-count: 2;
+  column-gap: 0;
+  width: 50%;
+}
+
+.hufflepuff li {
+  margin-bottom: 5px;
+}
+
+.ravenclaw {
+  background-image: url(https://cdn.wallpapersafari.com/69/94/SzwN8I.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.ravenclaw h1 {
+  margin-top: 0;
+  text-align: center;
+  color: white;
+}
+
+.ravenclaw h3 {
+  color: white;
+}
+
+.ravenclaw li {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.ravenclaw ul {
+  column-count: 2;
+  column-gap: 0;
+  width: 50%;
+}
