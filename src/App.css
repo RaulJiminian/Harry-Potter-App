@@ -96,7 +96,11 @@ main {
   text-align: center;
 }
 
-.gryffindor h3,li {
+.gryffindor h3 {
+  color: #d9ce40;
+}
+
+.gryffindor li {
   color: #d9ce40;
 }
 
@@ -105,3 +109,28 @@ main {
  column-gap: 0;
  width: 50%;
 }
+
+.slytherin {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/564/319/733/slytherin-sonserina-harry-potter-hogwarts-wallpaper-preview.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.slytherin h1 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.slytherin h3 {
+  color: white;
+}
+
+.slytherin li {
+  color: white;
+}
+
+.slytherin ul {
+  column-count: 2;
+  column-gap: 0;
+  width: 50%;
+ }
